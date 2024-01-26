@@ -1,0 +1,57 @@
+.nav-container {
+  background-color: #0e1113;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+}
+
+.logo {
+  color: #ecf0f1; 
+  margin: 0;
+  font-size: 20px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-list li {
+  margin-right: 70px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #ecf0f1;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.nav-list a:hover {
+  color: #FF914D;
+}
+
+.widget-comprar {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.countcart{
+margin-left: 4px;
+background-color: red;
+padding: 4px;
+color: #ecf0f1;
+}
+
+.widget-comprar > * {
+  margin-right: 10px;
+}
+
+.widget-comprar a {
+  text-decoration: none;
+  color: #ecf0f1;
+}
