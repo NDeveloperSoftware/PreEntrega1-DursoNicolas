@@ -36,17 +36,29 @@
 .widget-comprar {
   display: flex;
   align-items: center;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: normal;
 }
 
 .countcart{
 margin-left: 4px;
 background-color: red;
-padding: 4px;
+padding: 2px;
 color: #ecf0f1;
+animation: bounce 0.5s infinite;
 }
 
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-20px);
+  }
+  20% {
+    transform: translateY(-10px);
+  }
+}
 .widget-comprar > * {
   margin-right: 10px;
 }

@@ -3,7 +3,7 @@ import NavBar from './components/NavBar';
 
 function App() {
 
-  const greetings = '¡Hola! Bienvenido a nuestra tienda en línea.';
+  const greeting = '¡Hola! Bienvenido a nuestra tienda en línea.';
 
   return (
     <>
